@@ -1,24 +1,15 @@
-$(document).ready(main);
-var contador = 1;
-function main(){ 
-    $('.menu').click(function(){ 
-    //  $('.navegador').toggle();
-        if(contador ==1){
-            $('.nav').animate({
-                left:'0'
-            });
-            contador=0;
-        } else{ contador =1;
-            $('.nav').animate({
-                left:'-100%'
-            });
-        }
-    });
-};
+  var nav = document.getElementById('nav');
+  var menu = document.getElementById('menuu');
+  var y = document.getElementById("mensaje");
+  menuu.addEventListener('click', function (){
+      'use strict';
+      nav.classList.toggle('active');
 
-$(document).ready(function() {
-$(".menu").click(function(){
-    $('.mensaje').fadeToggle();
+      
   });
-});  
- 
+
+  /* if(nav.style.left === "-100%"){
+    y.style.display = "none"; 
+} else {
+    y.style.display = "block";
+} */
