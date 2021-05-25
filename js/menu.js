@@ -5,11 +5,11 @@
       'use strict';
       nav.classList.toggle('active');
 
-      
+      if(nav.style.left === "-100%"){
+        y.style.display = "block"; 
+    } else {
+        y.style.display = "none";
+    }
   });
 
-  /* if(nav.style.left === "-100%"){
-    y.style.display = "none"; 
-} else {
-    y.style.display = "block";
-} */
+  
