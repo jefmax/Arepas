@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A que el Tigre-Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/3d0f398882.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="encabezado2">
+      <div class="menu">
+        <i id="menu" class="fas fa-bars"></i>
+      </div>
+
+      <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="arepas.html">Menu</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a class="actual" href="contacto.html">Contacto</a>
+      </div>
+      <div class="social">
+        <a href="https://www.instagram.com/arepas_aqueeltigre/?hl=es-la"
+          ><i id="icon-social" class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/AQUEELTIGRE/"
+          ><i id="icon-social" class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          href="https://www.google.com/search?q=arepas+a+que+el+tigre&oq=arepas+a+qu&aqs=chrome.1.69i57j69i59j0l3j69i60l2j69i61.3126j0j7&sourceid=chrome&ie=UTF-8"
+          ><i id="icon-social" class="fab fa-google"></i
+        ></a>
+        <a href="#"><i id="icon-social" class="fab fa-twitter"></i></a>
+      </div>
+    </header>
+
+    <div class="img-logo">
+      <a href="index.html"><img src="img/logos/logonos.png" alt="" /></a>
+    </div>
+
+    <section class="contact">
+      <div class="formulario">
+        <h1>Encuentra la Arepa de tus sueños</h1>
+        <form class="usuario">
+          <label>First Name-Last Name / Nombre-Apellido*</label><br />
+          <input type="text" name="fname" /><br />
+          <label>Phone / Teléfono*</label><br />
+          <input type="tel" name="telefono" /><br />
+          <label>Email*</label><br />
+          <input type="email" name="email" /><br />
+          <label>Coments/Comentarios*</label><br />
+          <textarea id="comentarios" name="caja" rows="4" cols="30"> </textarea
+          ><br /><br />
+
+          <input
+            class="boton-contacto"
+            onclick="myFunction()"
+            type="submit"
+            value="Enviar"
+          />
+        </form>
+        <p>
+          Cuéntanos tu experiencia en <em>A que el Tigre</em>, puedes
+          contactarte con nosotros para mas informacón, o esribenos a nuestras
+          redes sociales.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <h2>A que el Tigre</h2>
+        <p>
+          Copyright ©2020 All rights reserved | This template made with ♡ by
+          Jefer Max
+        </p>
+      </div>
+      <br />
+      <div class="social">
+        <a href="https://www.instagram.com/arepas_aqueeltigre/?hl=es-la"
+          ><i id="icon-social" class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/AQUEELTIGRE/"
+          ><i id="icon-social" class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          href="https://www.google.com/search?q=arepas+a+que+el+tigre&oq=arepas+a+qu&aqs=chrome.1.69i57j69i59j0l3j69i60l2j69i61.3126j0j7&sourceid=chrome&ie=UTF-8"
+          ><i id="icon-social" class="fab fa-google"></i
+        ></a>
+        <a href="#"><i id="icon-social" class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/formulario.js"></script>
+  </body>
+</html>
