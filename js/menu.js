@@ -1,6 +1,6 @@
 $(document).ready(main);
 var contador = 1;
-function main(){
+function main(){ 
     $('.menu').click(function(){ 
     //  $('.navegador').toggle();
         if(contador ==1){
